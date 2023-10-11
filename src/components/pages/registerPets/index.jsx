@@ -1,13 +1,11 @@
 import { useForm } from "react-hook-form";
-import Bar from "../../layout/bar";
+import {Bar} from "../../layout/bar";
 import axios from "axios";
 
 
 export default function RegisterPets () {
 
-    const b = Bar()
-
-    const { register, formState: { errors }, handleSubmit } = useForm();
+   const { register, formState: { errors }, handleSubmit } = useForm();
 
     const onSubmit = async (data) => {
         console.log(data)
@@ -23,7 +21,7 @@ console.log(response.data)
         <div className="row col-12 ">
             
             
-                <div className="col-lg-3 col-3">{b} </div>
+                <div className="col-lg-3 col-3"><Bar/> </div>
                 <div className="col-8  container border-info rounded-3 border-2 border mt-4 mb-4 ">
                 <h1 className="m-lg-4">Registro de Mascotas</h1>
                 

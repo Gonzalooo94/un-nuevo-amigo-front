@@ -1,15 +1,14 @@
 import React from "react"
 import clsx from "clsx"
 import './index.css';
-import bar from '../../layout/bar.js'
+import {Bar} from '../../layout/bar.js'
 import getProductService from "../../../services/productService"
 import p1 from '../../imagenes/servers/stock.jpg'
 
 
 export default function Productos() {
 
-    const b = bar()
-
+    
     const productos = getProductService()
 
     return ( 
@@ -18,7 +17,7 @@ export default function Productos() {
 
 <div className="col-sm row col-12 " >
          
-         <div className="col-lg-3 col-3 container-sm container-xl ">{b}</div>
+         <div className="col-lg-3 col-3 container-sm container-xl "><Bar/></div>
          <div className="container col-9 row ">
             <h2 className="container mt-3">Nuestros Productos</h2>
 

@@ -3,14 +3,14 @@ import clsx from "clsx"
 import a1 from '../../imagenes/servers/asociado.jpg'
 import axios from "axios"
 import { useNavigate } from "react-router-dom";
-import bar from '../../layout/bar.js'
+import {Bar} from '../../layout/bar.js'
 import { useEffect, useState } from 'react';
 
  
 
 export default function Asociados() {
 
-    const b = bar()
+
    
 
     const url ='https://nuevo-amigo-server-production.up.railway.app/users'
@@ -48,7 +48,7 @@ export default function Asociados() {
 
 <div className="col-sm row col-12 " >
          
-         <div className="col-lg-3 col-3 ">{b}</div>
+         <div className="col-lg-3 col-3 "><Bar/></div>
          <div className="container col-9 col-sm  row">
             <h4 className="m-lg-3 container">Nuestros Asociados</h4>
     
