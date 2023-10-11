@@ -1,0 +1,39 @@
+.nav{
+      
+    color: #fafbfc;
+    background-color: transparent, !important;
+   border-color: transparent, !important;
+  
+  }
+.bar{
+
+  color: #070707;
+  opacity: 0.5;
+  
+
+}  
+
+.slider{
+
+  background-color: transparent, !important;
+  border-color: transparent, !important;
+ 
+  
+}
+ 
+.carousel-caption h5{
+  font-family: Impact;
+  font-size: 50px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-color: transparent, !important;
+
+
+}
+
+.ima-slider{
+  background-size: cover;
+  height: 565px;
+}
+
+  
